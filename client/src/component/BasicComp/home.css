@@ -1,0 +1,108 @@
+section {
+  position: relative;
+  background-color: rgba(239, 239, 239, 255);
+  display: flex;
+  flex-direction: column;
+  min-width: 300px;
+  height: auto;
+  border-radius: 30px;
+  background-color: rgba(239, 239, 239, 255);
+}
+section .msgBox {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80px;
+}
+section .btnBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(231, 78, 99);
+  padding: 20px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+/* test */
+
+.imgBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: auto;
+  margin-top: -20px;
+  /* width: 50px; */
+  height: 50px;
+}
+.emoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.5rem;
+  font-style: normal;
+}
+
+input {
+  padding: 5px 12px;
+  font-size: 14px;
+  line-height: 20px;
+  color: #24292e;
+  vertical-align: middle;
+  outline: none;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: solid 2px #474544;
+  color: #474544;
+}
+
+/* CSS */
+.button-42 {
+  text-transform: capitalize;
+  align-items: center;
+  background-color: rgba(239, 239, 239, 255);
+  border: 0;
+  border-radius: 100px;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: -apple-system, system-ui, system-ui, "Segoe UI", Roboto,
+    "Helvetica Neue", "Fira Sans", Ubuntu, Oxygen, "Oxygen Sans", Cantarell,
+    "Droid Sans", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 20px;
+  min-height: 40px;
+  min-width: 100px;
+  width: auto;
+  overflow: hidden;
+  padding: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+  touch-action: manipulation;
+  transition: background-color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    box-shadow 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s,
+    color 0.167s cubic-bezier(0.4, 0, 0.2, 1) 0s;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+}
+
+/* actual box for responsive */
+@media (max-width: 700px) {
+  section {
+    width: 90vw;
+  }
+}
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
